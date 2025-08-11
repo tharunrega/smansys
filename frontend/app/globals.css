@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-smansys-secondary text-white px-4 py-2 rounded-lg font-medium hover:bg-smansys-secondary/90 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-700 px-4 py-2 rounded-lg font-medium hover:bg-gray-300 transition-colors duration-200;
+  }
+  
+  .btn-danger {
+    @apply bg-status-error text-white px-4 py-2 rounded-lg font-medium hover:bg-status-error/90 transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-soft border border-gray-100;
+  }
+  
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-smansys-secondary focus:border-transparent transition-all duration-200;
+  }
+  
+  .sidebar-item {
+    @apply flex items-center gap-3 px-4 py-3 text-white hover:bg-white/10 rounded-lg transition-colors duration-200 cursor-pointer;
+  }
+  
+  .sidebar-item.active {
+    @apply bg-white text-smansys-primary font-medium;
+  }
+  
+  .metric-card {
+    @apply bg-white rounded-xl p-6 shadow-soft border border-gray-100;
+  }
+  
+  .status-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .status-paid {
+    @apply bg-status-paid/10 text-status-paid;
+  }
+  
+  .status-pending {
+    @apply bg-status-pending/10 text-status-pending;
+  }
+  
+  .status-overdue {
+    @apply bg-status-overdue/10 text-status-overdue;
+  }
+  
+  .status-inProgress {
+    @apply bg-status-inProgress/10 text-status-inProgress;
+  }
+  
+  .status-completed {
+    @apply bg-status-completed/10 text-status-completed;
+  }
+  
+  .status-notStarted {
+    @apply bg-status-notStarted/10 text-status-notStarted;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+} 
