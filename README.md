@@ -52,6 +52,30 @@ A comprehensive full-stack school management system with role-based access contr
 - **Mongoose** for ODM
 - **Multer** for file uploads
 
+## 📱 Application Screenshots
+
+### Home Dashboard
+![Home Dashboard](./src/home_page.png)
+
+### Students Management
+![Students Page](./src/students_page.png)
+
+### Teachers Management
+![Teachers Page](./src/teachers_page.png)
+
+### Profile Management
+![Profile Page](./src/profile_page.png)
+
+### Finance Section
+![Finance Page](./src/finance_page.png)
+
+### Application Settings
+![Settings Page](./src/settings_page.png)
+
+### User Registration
+![Signup Page](./src/signup_page.png)
+
+
 ## 📁 Project Structure
 
 ```
@@ -262,3 +286,4 @@ For support and questions:
 
 
 **Built with ❤️ for modern school management** 
+
