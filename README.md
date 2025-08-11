@@ -98,7 +98,7 @@ smansys/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smansys.git
+   git clone https://github.com/tharunrega/smansys.git
    cd smansys
    ```
 
@@ -227,7 +227,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-Built with ❤️ by [Your Name](https://github.com/yourusername)
+Built with ❤️ by [Tharun Rega](https://github.com/tharunrega)
 
 ## 🤝 Contributing
 
@@ -259,5 +259,6 @@ For support and questions:
 - [ ] Mobile app (React Native)
 
 ---
+
 
 **Built with ❤️ for modern school management** 
